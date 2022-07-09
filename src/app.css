@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html{
+    @apply overflow-y-scroll
+}
+.article p{
+    @apply text-justify mb-6 lg:mb-8 text-lg leading-loose lg:text-xl lg:leading-relaxed text-gray-900;
+}
+
+.article h1{
+    @apply mb-6  text-3xl leading-loose lg:text-3xl lg:leading-relaxed text-gray-900;
+}

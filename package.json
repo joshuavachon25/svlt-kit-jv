@@ -22,6 +22,8 @@
   },
   "type": "module",
   "dependencies": {
-    "@sveltejs/adapter-static": "^1.0.0-next.35"
+    "@rive-app/canvas": "^1.0.72",
+    "@sveltejs/adapter-static": "^1.0.0-next.35",
+    "rive-js": "^0.7.33"
   }
 }

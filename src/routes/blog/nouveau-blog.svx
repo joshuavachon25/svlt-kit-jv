@@ -1,0 +1,8 @@
+---
+layout: blog
+title: Test
+cover: https://images.unsplash.com/photo-1635898445837-65c066642d81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
+video: 4boXExbbGCk
+---
+# Début de l'histoire
+L'histoire de l'Empire byzantin s'étend du ive siècle à 1453. En tant qu'héritier de l'Empire romain, l'Empire romain d'Orient, nommé « Empire byzantin » par Jerôme Wolf en 1557, puise ses origines dans la fondation même de Rome. Dès lors, le caractère prédominant de l'histoire byzantine est l'exceptionnelle longévité de cet empire pourtant confronté à d'innombrables défis tout au long de son existence, comme en témoigne le grand nombre de sièges que dut subir sa capitale, Constantinople. La création de cette dernière par Constantin en 330 peut constituer un deuxième point de départ à l'histoire de l'Empire byzantin avec la division définitive de l'Empire romain en 395. En effet, l'emplacement de Constantinople au carrefour entre l'Orient et l'Occident contribua grandement à l'immense richesse de l'Empire byzantin. Cette richesse couplée à son très grand prestige firent de lui un empire respecté mais aussi très convoité. En outre, la richesse des sources historiques byzantines permet d'avoir un aperçu complet et détaillé de l'histoire byzantine, bien que l'impartialité des historiens, souvent proches du pouvoir, soit parfois contestable.
