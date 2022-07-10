@@ -1,7 +1,5 @@
 <script>
-    export let title
-    export let cover
-    export let video
+    export let title, cover, video
 </script>
 
 <section class="min-h-screen bg-fixed bg-cover bg-no-repeat bg-center flex px-10 lg:px-40 pt-28 pb-16 " style="background-image: url({cover})">
