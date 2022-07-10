@@ -18,5 +18,7 @@
 </script>
 
 <Menu data={menu}/>
-<MenuMobile data={menu}/>
-<slot/>
+<!--<MenuMobile data={menu}/>-->
+<div class="min-h-screen w-full pl-16 md:pl-24">
+    <slot />
+</div>

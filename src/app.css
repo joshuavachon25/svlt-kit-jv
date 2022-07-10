@@ -3,7 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 html{
-    @apply overflow-y-scroll
+    @apply overflow-y-scroll;
+    scroll-behavior: smooth;
 }
 .article p{
     @apply text-justify mb-6 lg:mb-8 text-lg leading-loose lg:text-xl lg:leading-relaxed text-gray-900;

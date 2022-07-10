@@ -1,26 +1,30 @@
 <script>
-    import Anim from "../lib/components/Anim.svelte";
+    import { Canvas, Mesh, HemisphereLight, PerspectiveCamera, OrbitControls, Text, useTexture } from 'threlte'
+    import {SphereBufferGeometry, MeshStandardMaterial, CircleBufferGeometry} from 'three'
+    import { HTML } from 'threlte/extras'
+    import { spring } from 'svelte/motion'
+    const sphereMaterial = new MeshStandardMaterial({ color: 0xffffff});
+    let txt = 'JOSHUA VACHON'
+
 </script>
 
-<section class="h-screen bg-[url('https://images.unsplash.com/photo-1556139943-4bdca53adf1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80')] bg-cover bg-no-repeat bg-center flex px-10 lg:px-40 justify-evenly items-center flex-wrap-reverse ">
-    <div>
-        <h1 class="text-5xl lg:text-7xl text-center">Joshua<b>Vachon</b></h1>
-        <p class="max-w-md text-sm mt-5 px-5 text-justify">Co-fondateur, développeur et reponsable technique pour le Studio Cyberfjord, ainsi que co-fondateur, développeur et rédacteur pour le projet Historiamati.ca (Humatica). Je suis également candidat à la maîtrise en informatique appliquée à l'histoire (M.A)</p>
-        <div class="flex flex-row justify-around mt-6">
-            <div class="poste">Développeur</div>
-            <div class="poste">Historien</div>
-            <div class="poste">Curieux</div>
-        </div>
+<div class="h-screen w-full bg-cover" style="background-image: url('https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');">
+    <Canvas class="pl-24 relative">
+        <PerspectiveCamera position={{ x: 2, y: 2, z: 2 }}>
+            <OrbitControls enableDamping enableZoom={false}/>
+        </PerspectiveCamera>
+        <HemisphereLight skyColor={0x4c8eac} groundColor={0xac844c} intensity={0.6} />
+        <Text interactive on:pointerenter={() => txt = 'JOSHUA L.J. VACHON'} on:pointerleave={() => txt = 'JOSHUA VACHON'} bind:text={txt} position={{y: 1.1, x:-0.5}}/>
+        <Mesh castShadow interactive geometry={new SphereBufferGeometry(1, 40, 40)} material={sphereMaterial}/>
+    </Canvas>
+
+    <div class="absolute bottom-2 md:bottom-20 right-2 lg:right-1/2 flex flex-col transform lg:translate-x-1/2 select-none justify-center items-end md:items-center">
+        <h1 class="text-6xl lg:text-9xl text-white leading-none"><span class="font-bold">JOSHUA</span><br>VACHON</h1>
+        <p class="hidden lg:flex lg:text-2xl text-white">Développement web • Cartographie • Humanités numériques</p>
+        <p class="flex lg:hidden text-xl text-white">Développement web</p>
+        <p class="flex lg:hidden text-xl text-white">Cartographie</p>
+        <p class="flex lg:hidden text-xl text-white">Humanités numériques</p>
     </div>
-    <div>
-        <Anim/>
 
-    </div>
-</section>
 
-<style>
-    .poste{
-        @apply bg-white bg-opacity-50 px-5 py-3 rounded-md shadow-lg;
-    }
-</style>
-
+</div>
