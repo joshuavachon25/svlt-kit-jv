@@ -1,0 +1,8 @@
+---
+layout: blog
+title: Vauban en Amérique!
+creation: 2019
+resume: Vauban en Amérique? est un incursion dans l'histoire du Fort de Chambly et une analyse de l'influence que le grand architecte francais Vauban a pu avoir sur les forteresses de la Nouvelle-France.
+cover: /img/portfolio/vauban-en-amerique.png
+---
+Vauban en Amérique? est un incursion dans l'histoire du Fort de Chambly et une analyse de l'influence que le grand architecte francais Vauban a pu avoir sur les forteresses de la Nouvelle-France. Ce projet est le résultat d'un atelier de deuxième cycle à l'Université de Sherbrooke sous la direction de Tristan Landry. Il s'agit d'une réalisation de Joshua L.J. Vachon, Antoine Gauthier-Trépanier, Anthony Trouilhas et Hubert Cousineau, quatre étudiants en Histoire avec concentration en informatique appliquée.

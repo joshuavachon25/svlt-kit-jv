@@ -13,3 +13,9 @@ html{
 .article h1{
     @apply mb-6  text-3xl leading-loose lg:text-3xl lg:leading-relaxed text-gray-900;
 }
+
+.fond{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 81%, rgba(255,255,255,1) 100%);
+    background-attachment: fixed;
+}

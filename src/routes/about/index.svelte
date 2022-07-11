@@ -1,6 +1,6 @@
 
 
-<section class="min-h-screen bg-fixed bg-[url('https://images.unsplash.com/photo-1556139943-4bdca53adf1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80')] bg-cover bg-no-repeat bg-center flex px-10 lg:px-40 pt-28 pb-16">
+<section class="min-h-screen fond flex px-10 lg:px-40 pt-28 pb-16">
 
             <div class="mx-auto">
                 <div class="mb-8 p-6 flex flex-wrap items-center bg-white rounded-lg shadow">
