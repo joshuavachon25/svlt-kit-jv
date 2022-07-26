@@ -3,6 +3,7 @@
     import {SphereBufferGeometry, MeshStandardMaterial, TextureLoader} from 'three'
     import {onMount} from "svelte";
     import { spring } from 'svelte/motion'
+    import Intro from "../lib/components/Intro.svelte";
 
     let earthMaterial = new MeshStandardMaterial({color: 0x000000})
 
@@ -36,7 +37,9 @@
 
 </div>-->
 
-<section class="min-h-screen fond flex px-10 w-full py-12 flex-col">
+<section class="min-h-screen fond  w-full flex justify-center items-center">
 
+<Intro/>
 
 </section>
+
